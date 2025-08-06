@@ -1,5 +1,5 @@
 class Calculator
-  def add(*numbers)
-    numbers.reduce(0) { |sum, number| sum + number }
+  def sum(*addends)
+    addends.reduce(0) { |sum, addend| sum + addend }
   end
 end
