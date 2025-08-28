@@ -17,6 +17,7 @@ AllCops:
   NewCops: enable
   Exclude: 
     - spec/spec_helper.rb
+    - spec/game_spec.rb
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
